@@ -6,6 +6,8 @@
 
 [🔗 Live demo](https://aronmandrella.github.io/dox-me-io/)
 
+⚠️ ipstack API doesn't allow https:// queries on free plan (only http://), so fetching ip metadata probably will be blocked by browser outside of localhost.
+
 ## How to install and run
 
 Run in dev mode
