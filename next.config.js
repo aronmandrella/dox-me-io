@@ -5,13 +5,16 @@ const GH_PAGE_SLUG = "/dox-me-io";
 const nextConfig = {
   reactStrictMode: true,
   /*
+    Config required for GitHub pages.
+
     GitHub pages store website files under url that looks like this:
     https://username.github.io/repo-name/
 
-    But Next.js vt default prepares absolute assets urls that expect that these assets are here:
+    Next.js by default prepares absolute assets urls that expect that these assets are here:
     https://username.github.io/
   */
-  basePath: IS_DEVELOPMENT ? "" : GH_PAGE_SLUG,
+  basePath: IS_DEVELOPMENT ? "" : GH_PAGE_SLUG, // Fixes links
+  assetPrefix: "./", // Fixes CSS/JS assets loading
 };
 
 module.exports = nextConfig;
