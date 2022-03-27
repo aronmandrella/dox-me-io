@@ -1,5 +1,5 @@
 const IS_DEVELOPMENT = process.env.NODE_ENV === "development";
-const GH_PAGE_SLUG = "/landing-page-with-ssr-and-data-fetching";
+const GH_PAGE_SLUG = "/dox-me-io";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

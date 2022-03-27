@@ -1,10 +1,10 @@
 # DoxMe.io (recruitment task)
 
-![ui_demo](TODO)
+![ui_demo](https://raw.githubusercontent.com/aronmandrella/dox-me-io/master/ui_demo_1.PNG)
 
 ## Demo link
 
-[🔗 Live demo](TODO)
+[🔗 Live demo](https://aronmandrella.github.io/dox-me-io/)
 
 ## How to install and run
 
