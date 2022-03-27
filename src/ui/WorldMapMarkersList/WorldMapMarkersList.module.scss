@@ -1,0 +1,72 @@
+@use "@theme/variables" as *;
+
+/* -------------------------------- CONTAINER ------------------------------- */
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+.root > * + * {
+  border-top: 2px solid $color-surface-3;
+}
+
+/* ---------------------------------- ENTRY --------------------------------- */
+
+.entry {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  padding: 0.5rem 1rem;
+
+  &:hover,
+  &:focus {
+    background-color: $color-surface-2;
+  }
+  &.isSelected {
+    cursor: default;
+    background-color: $color-surface-3;
+  }
+}
+.entry > * + * {
+  margin-left: 1rem;
+}
+
+.entryIcon {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.entryContent {
+  flex-shrink: 1;
+  flex-grow: 1;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.entryContent > * + * {
+  margin-top: 3px;
+}
+
+.entryLabel {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.entryLocation {
+  font-size: 0.75rem;
+  color: $color-text-2;
+}
+
+// Truncating text
+.entryLabel,
+.entryLocation {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
