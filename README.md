@@ -24,6 +24,8 @@ npm run build
 
 ## Specifications:
 
+✔️ Uses Next.js + React + TypeScript + CSS Modules + SCSS.
+
 ✔️ Displays user IP with it’s location on the map after initial load.
 
 ✔️ Search box accepts only IP address or URL (if user provides something else appropriate message is displayed).
@@ -34,6 +36,4 @@ npm run build
 
 ✔️ History of searched locations is stored during session. Items in the list and markers on the map are clickable.
 
-✔️ Responsive UI.
-
-✔️ Uses Next.js + React + TypeScript.
+✔️ Has Responsive UI.
