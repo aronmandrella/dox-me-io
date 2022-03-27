@@ -12,7 +12,7 @@ const IP_STACK_API_KEY = String(process.env.NEXT_PUBLIC_IP_STACK_API_KEY);
 export const useMapUrlMarkers = () => {
   /* ---------------------------------- STATE --------------------------------- */
 
-  const [isFakingUrlChecks, setIsFakingUrlChecks] = useState(true);
+  const [isFakingUrlChecks, setIsFakingUrlChecks] = useState(false);
   const [isCheckingUrl, setIsCheckingUrl] = useState(true);
 
   const [mapUrlMarkers, setMapUrlMarkers] = useState<IWorldMapMarker[]>([]);

@@ -14,7 +14,6 @@ const nextConfig = {
     https://username.github.io/
   */
   basePath: IS_DEVELOPMENT ? "" : GH_PAGE_SLUG, // Fixes links
-  assetPrefix: "./", // Fixes CSS/JS assets loading
 };
 
 module.exports = nextConfig;
