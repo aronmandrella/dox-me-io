@@ -1,4 +1,4 @@
-# DoxMe.io (recruitment task)
+# DoxMe.io (basic technology test app)
 
 ![ui_demo](https://raw.githubusercontent.com/aronmandrella/dox-me-io/master/ui_demo_1.PNG)
 
