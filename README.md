@@ -1,4 +1,4 @@
-# DoxMe.io (basic technology test app)
+# DoxMe.io (front-end skills showcase)
 
 ![ui_demo](https://raw.githubusercontent.com/aronmandrella/dox-me-io/master/ui_demo_1.PNG)
 
